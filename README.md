@@ -123,7 +123,11 @@ la config y dejar que `lazy.nvim` descargue los plugins.
    ```bash
    mv ~/.config/nvim ~/.config/nvim.bak
    ```
-2. Copia la carpeta `nvim` de este paquete a `~/.config/nvim`.
+2. Clona el repositorio directamente en `~/.config/nvim`:
+   ```bash
+   git clone https://github.com/J0Ss3/NVIM-CONFIG.git ~/.config/nvim
+   ```
+   (Alternativa sin git: copia la carpeta `nvim` de este paquete a `~/.config/nvim`.)
 3. Abre Neovim:
    ```bash
    nvim
